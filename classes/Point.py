@@ -1,7 +1,7 @@
 import math
 import random
 
-class Point(object):
+class Point():
   """Point object.
     ### Parameters
     - x: number
@@ -18,9 +18,9 @@ class Point(object):
     - p1: Point
     - p2: Point
     """
-    return type(math.sqrt(
+    return math.sqrt(
         pow(p1.x - p2.x, 2) + pow(p1.y - p2.y, 2)
-    ))
+    )
 
   @staticmethod
   def randomPoint(radius, center):
