@@ -1,1 +1,1 @@
-# CovidSimulation
+# Járványszimuláció lakossági mozgások alapján
